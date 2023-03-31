@@ -1,3 +1,3 @@
 SuccesDagboek Doesburg
 
-Live Previeuw: https://danivdmijl.github.io/Succes-Dagboek/
+Live Preview: https://danivdmijl.github.io/Succes-Dagboek/

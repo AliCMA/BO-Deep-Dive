@@ -1,0 +1,289 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabellen_wolken {
+  display: flex;
+}
+
+h1 {
+  color: #29a6b0;
+}
+
+.class_p {
+  color: #29a6b0;
+}
+
+@media only screen and (max-width: 400px) {
+  .main__container {
+    flex-direction: column;
+  }
+  .gebeurtenis__tabel,
+.gedrag_vak,
+.gevoel_vak {
+    width: 100%;
+    margin: 0;
+  }
+  .wolkjes-container {
+    flex-wrap: wrap;
+  }
+  .wolk_links,
+.wolk_rechts {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .header {
+    margin-bottom: 50px;
+  }
+}
+.gebeurtenis__tabel {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 2%;
+  border: 5px solid #29a6b0;
+  margin-bottom: 20px;
+  width: 75%;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gebeurtenis__tabel h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.gebeurtenis__tabel textarea {
+  border: none;
+  width: 100%;
+}
+
+.gebeurtenis__tabel h2,
+.gebeurtenis__tabel textarea {
+  margin: 0;
+}
+
+.gebeurtenisnaam__tabel {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 2%;
+  border: 5px solid #29a6b0;
+  margin-bottom: 20px;
+  width: 75%;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gebeurtenisnaam__tabel h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.gebeurtenisnaam__tabel textarea {
+  border: none;
+  width: 100%;
+}
+
+.gebeurtenisnaam__tabel h2,
+.gebeurtenisnaam__tabel textarea {
+  margin: 0;
+}
+
+.h2_gebeurtenis {
+  color: #29a6b0;
+}
+
+.h2_gebeurtenisnaam {
+  color: #29a6b0;
+}
+
+.gebeurtenis__typevak {
+  height: 80px;
+  resize: none;
+}
+
+.gebeurtenisnaam__typevak {
+  height: 80px;
+  resize: none;
+}
+
+.gedrag_vak {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 20px;
+  width: 25rem;
+  border: 5px solid #29a6b0;
+}
+.gedrag_vak h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.gedrag_vak textarea {
+  border: none;
+  width: 100%;
+}
+
+.h2_gedrag {
+  color: #29a6b0;
+}
+
+.gedrag_links_typevak,
+.gedrag_rechts_typevak {
+  height: 100px;
+  resize: none;
+}
+
+.gevoel_vak {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 20px;
+  width: 25rem;
+  border: 5px solid #29a6b0;
+  margin-bottom: 20px;
+}
+.gevoel_vak h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.gevoel_vak textarea {
+  border: none;
+  width: 100%;
+}
+
+.h2_gevoel {
+  color: #29a6b0;
+}
+
+.gevoel_links_typevak {
+  height: 100px;
+  resize: none;
+}
+
+.gevoel_rechts_typevak {
+  height: 100px;
+  resize: none;
+}
+
+.wolkjes-container {
+  display: flex;
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.wolk_links {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wolk_links > img {
+  align-items: center;
+  width: 25rem;
+}
+
+.wolk_links {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wolk_links_typevak {
+  border: none;
+  background-color: transparent;
+  height: 100px;
+  position: absolute;
+  top: 51%;
+  width: 17rem;
+  height: 6rem;
+  resize: none;
+}
+
+.wolk_rechts {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wolk_rechts > img {
+  align-items: center;
+  width: 25rem;
+}
+
+.wolk_rechts_typevak {
+  border: none;
+  background-color: transparent;
+  height: 50px;
+  position: absolute;
+  top: 51%;
+  width: 17rem;
+  height: 6rem;
+  resize: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 135px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #29a6b0;
+}
+header img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+header h1 {
+  text-align: center;
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

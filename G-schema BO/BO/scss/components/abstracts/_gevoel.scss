@@ -1,0 +1,45 @@
+@use "../abstracts/colors";
+@use "../abstracts/mixins";
+
+
+// Code van de tabellen die horen bij de gevoel gedeelte \\
+
+@mixin table-tabel {
+    display: inline-block;
+    background-color: colors.$wit;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 20px;
+    width: 25rem;
+    border: 5px solid colors.$aqua;
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        border: none;
+        width: 100%;
+    }
+}
+
+.gevoel_vak {
+    @include table-tabel;
+    margin-bottom: 20px;
+}
+
+.h2_gevoel {
+    color: colors.$aqua;
+}
+
+.gevoel_links_typevak {
+    height: 100px;
+    resize: none;
+}
+
+.gevoel_rechts_typevak {
+    height: 100px;
+    resize: none;
+}

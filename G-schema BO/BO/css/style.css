@@ -29,28 +29,6 @@ h1 {
   color: #29a6b0;
 }
 
-@media only screen and (max-width: 400px) {
-  .main__container {
-    flex-direction: column;
-  }
-  .gebeurtenis__tabel,
-.gedrag_vak,
-.gevoel_vak {
-    width: 100%;
-    margin: 0;
-  }
-  .wolkjes-container {
-    flex-wrap: wrap;
-  }
-  .wolk_links,
-.wolk_rechts {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .header {
-    margin-bottom: 50px;
-  }
-}
 .gebeurtenis__tabel {
   background-color: #fff;
   border-radius: 10px;
@@ -224,7 +202,7 @@ h1 {
   background-color: transparent;
   height: 100px;
   position: absolute;
-  top: 51%;
+  top: 46%;
   width: 17rem;
   height: 6rem;
   resize: none;
@@ -250,7 +228,7 @@ h1 {
   background-color: transparent;
   height: 50px;
   position: absolute;
-  top: 51%;
+  top: 46%;
   width: 17rem;
   height: 6rem;
   resize: none;

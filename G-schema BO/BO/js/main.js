@@ -62,70 +62,70 @@ window.onload = function () {
 
 // DOM:
 
-//Gebeurtenisnaam
-var gebeurtenisnaamTabel = document.createElement('div');
-gebeurtenisnaamTabel.className = 'gebeurtenisnaam__tabel';
+// //Gebeurtenisnaam
+// var gebeurtenisnaamTabel = document.createElement('div');
+// gebeurtenisnaamTabel.className = 'gebeurtenisnaam__tabel';
 
-var h2Gebeurtenisnaam = document.createElement('h2');
-h2Gebeurtenisnaam.className = 'h2_gebeurtenisnaam';
-h2Gebeurtenisnaam.innerHTML = 'Vul je naam hieronder in:';
+// var h2Gebeurtenisnaam = document.createElement('h2');
+// h2Gebeurtenisnaam.className = 'h2_gebeurtenisnaam';
+// h2Gebeurtenisnaam.innerHTML = 'Vul je naam hieronder in:';
 
-var textareaGebeurtenisnaam = document.createElement('textarea');
-textareaGebeurtenisnaam.className = 'gebeurtenisnaam__typevak';
-textareaGebeurtenisnaam.id = 'gebeurtenisnaam__typevak';
+// var textareaGebeurtenisnaam = document.createElement('textarea');
+// textareaGebeurtenisnaam.className = 'gebeurtenisnaam__typevak';
+// textareaGebeurtenisnaam.id = 'gebeurtenisnaam__typevak';
 
-gebeurtenisnaamTabel.appendChild(h2Gebeurtenisnaam);
-gebeurtenisnaamTabel.appendChild(textareaGebeurtenisnaam);
+// gebeurtenisnaamTabel.appendChild(h2Gebeurtenisnaam);
+// gebeurtenisnaamTabel.appendChild(textareaGebeurtenisnaam);
 
-// Gebeurtenis-tabel
-var gebeurtenisTabel = document.createElement('div');
-gebeurtenisTabel.className = 'gebeurtenis__tabel';
+// // Gebeurtenis-tabel
+// var gebeurtenisTabel = document.createElement('div');
+// gebeurtenisTabel.className = 'gebeurtenis__tabel';
 
-var h2Gebeurtenis = document.createElement('h2');
-h2Gebeurtenis.className = 'h2_gebeurtenis';
-h2Gebeurtenis.innerHTML = '(A) Gebeurtenis: wie?, Met wie?, Wat?, Waar?, Wanneer?, Hoe?';
+// var h2Gebeurtenis = document.createElement('h2');
+// h2Gebeurtenis.className = 'h2_gebeurtenis';
+// h2Gebeurtenis.innerHTML = '(A) Gebeurtenis: wie?, Met wie?, Wat?, Waar?, Wanneer?, Hoe?';
 
-var textareaGebeurtenis = document.createElement('textarea');
-textareaGebeurtenis.className = 'gebeurtenis__typevak';
-textareaGebeurtenis.id = 'gebeurtenis__typevak';
+// var textareaGebeurtenis = document.createElement('textarea');
+// textareaGebeurtenis.className = 'gebeurtenis__typevak';
+// textareaGebeurtenis.id = 'gebeurtenis__typevak';
 
-var pClass = document.createElement('p');
-pClass.className = 'class_p';
-pClass.innerHTML = 'ga nu eerst naar c';
+// var pClass = document.createElement('p');
+// pClass.className = 'class_p';
+// pClass.innerHTML = 'ga nu eerst naar c';
 
-gebeurtenisTabel.appendChild(h2Gebeurtenis);
-gebeurtenisTabel.appendChild(textareaGebeurtenis);
-gebeurtenisTabel.appendChild(pClass);
+// gebeurtenisTabel.appendChild(h2Gebeurtenis);
+// gebeurtenisTabel.appendChild(textareaGebeurtenis);
+// gebeurtenisTabel.appendChild(pClass);
 
-// Body-container
-var bodyContainer = document.createElement('div');
-bodyContainer.className = 'body__container';
+// // Body-container
+// var bodyContainer = document.createElement('div');
+// bodyContainer.className = 'body__container';
 
-var tabellenWolken = document.createElement('div');
-tabellenWolken.className = 'tabellen_wolken';
+// var tabellenWolken = document.createElement('div');
+// tabellenWolken.className = 'tabellen_wolken';
 
-var mainContainer1 = document.createElement('div');
-mainContainer1.className = 'main__container';
+// var mainContainer1 = document.createElement('div');
+// mainContainer1.className = 'main__container';
 
-// Linkerkant van de wolk
-var wolkLinks = document.createElement('div');
-wolkLinks.className = 'wolk_links';
+// // Linkerkant van de wolk
+// var wolkLinks = document.createElement('div');
+// wolkLinks.className = 'wolk_links';
 
-var h1Links = document.createElement('h1');
-h1Links.innerHTML = '(B) Onhandige';
+// var h1Links = document.createElement('h1');
+// h1Links.innerHTML = '(B) Onhandige';
 
-var imgLinks = document.createElement('img');
-imgLinks.src = 'img/wolk.svg';
+// var imgLinks = document.createElement('img');
+// imgLinks.src = 'img/wolk.svg';
 
-var textareaLinks = document.createElement('textarea');
-textareaLinks.className = 'wolk_links_typevak';
-textareaLinks.id = 'wolk_links_typevak';
+// var textareaLinks = document.createElement('textarea');
+// textareaLinks.className = 'wolk_links_typevak';
+// textareaLinks.id = 'wolk_links_typevak';
 
-var pClass1 = document.createElement('p');
-pClass1.className = 'class_p';
-pClass1.innerHTML = 'Ga nu naar E';
+// var pClass1 = document.createElement('p');
+// pClass1.className = 'class_p';
+// pClass1.innerHTML = 'Ga nu naar E';
 
-wolkLinks.appendChild(h1Links);
-wolkLinks.appendChild(imgLinks);
-wolkLinks.appendChild(textareaLinks);
+// wolkLinks.appendChild(h1Links);
+// wolkLinks.appendChild(imgLinks);
+// wolkLinks.appendChild(textareaLinks);
 

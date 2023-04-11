@@ -1,9 +1,11 @@
 table, th, td {
-    border: 0.2rem solid black;
+    border: 0.2rem solid rgb(25,174,170);
     border-collapse: collapse;
   }
 
-  textarea, input { outline: none; }
+textarea, input {
+    outline: none;
+}
 
 .table{
 
@@ -11,15 +13,16 @@ table, th, td {
         height: 5rem;
         width: 30rem;
         font-weight: 500;
-        color: rgb(23, 168, 163);
+        color: rgb(25,174,170)
     }
 
     &__date{
+        width: 10rem;
         background: none;
         border: none;
         padding: 0.7rem;
         font-family: 'Ubuntu', sans-serif;
-        color: rgb(23, 168, 163);
+        color: rgb(25,174,170);
     }
 
     &__th--date{
@@ -27,9 +30,7 @@ table, th, td {
         background: none;
         padding: 0.5rem;
         font-weight: 500;
-        color: rgb(23, 168, 163);
-        color: rgb(23, 168, 163);
-
+        color: rgb(25,174,170);
     }
     
     &__td--text{

@@ -56,7 +56,11 @@ textarea, input {
   background: none;
   padding: 0.5rem;
   font-weight: 500;
+<<<<<<< HEAD
   color: rgb(25, 174, 170);
+=======
+  color: rgb(23, 168, 163);
+>>>>>>> 57e74cda2583cf3956c6c8e85cc32ed1c6a22806
 }
 .table__td--text {
   height: 7.5rem;

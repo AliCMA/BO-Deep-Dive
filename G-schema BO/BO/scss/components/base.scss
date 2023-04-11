@@ -1,0 +1,36 @@
+@use "../components/abstracts/colors";
+
+// Code voor de hele site (body) \\
+
+body {
+    //Lettertype van DOESBURG COACHING \\
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabellen_wolken {
+    display: flex;
+}
+
+h1 {
+    color: colors.$aqua;
+}
+
+.class_p{
+    color: colors.$aqua;
+}

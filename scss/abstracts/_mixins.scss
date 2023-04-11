@@ -2,18 +2,44 @@
 
 // Mixin codes \\
 
+// Mixin code\\
 @mixin gebeurtenis-tabel() {
     background-color: colors.$wit;
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
     margin: 0;
-    padding: 20px;
-    width: 35%;
+    padding: 2%;
     border: 5px solid colors.$aqua;
     margin-bottom: 20px;
     width: 75%;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        border: none;
+        width: 100%;
+    }
+}
+
+@mixin gebeurtenisnaam-tabel() {
+    background-color: colors.$wit;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 2%;
+    border: 5px solid colors.$aqua;
+    margin-bottom: 20px;
+    width: 75%;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,16 +58,16 @@
 @mixin gedrag-vak() {
     display: inline-block;
     background-color: colors.$wit;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.625rem;
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
     margin: 0;
-    padding: 20px;
+    padding: 1.25rem;
     width: 35%;
-    border: 5px solid colors.$aqua;
+    border: 0.313rem solid colors.$aqua;
 
     h2 {
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
     }
 
     textarea {
@@ -54,16 +80,16 @@
 @mixin table-styles {
     display: inline-block;
     background-color: colors.$wit;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.625rem;
+    box-shadow: 0.625rem 0.625rem0.313rem rgba(0, 0, 0, 0.2);
     margin: 0;
-    padding: 20px;
+    padding: 1.25rem;
     width: 35%;
-    border: 5px solid colors.$aqua;
+    border: 0.313rem solid colors.$aqua;
 
     h2 {
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
     }
 
     textarea {

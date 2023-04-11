@@ -6,17 +6,17 @@
 @mixin gedrag-vak() {
     display: inline-block;
     background-color: colors.$wit;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.625rem;
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
     margin: 0;
-    padding: 20px;
+    padding: 1.25rem;
     width: 25rem;
 
-    border: 5px solid colors.$aqua;
+    border: 0.313rem solid colors.$aqua;
 
     h2 {
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
     }
 
     textarea {
@@ -35,6 +35,6 @@
 
 .gedrag_links_typevak,
 .gedrag_rechts_typevak {
-    height: 100px;
+    height: 6.25rem;
     resize: none;
 }

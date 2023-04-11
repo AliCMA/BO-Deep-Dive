@@ -44,7 +44,7 @@
     height: 10rem;
   }
   .gevoel_vak, .gedrag_vak {
-    max-width: 325px;
+    max-width: 20.313rem;
   }
 }
 body {
@@ -80,12 +80,12 @@ h1 {
 
 .gebeurtenis__tabel {
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 2%;
-  border: 5px solid #29a6b0;
-  margin-bottom: 20px;
+  border: 0.313rem solid #29a6b0;
+  margin-bottom: 1.25rem;
   width: 75%;
   margin-left: 10.5%;
   margin-right: 10.5%;
@@ -94,8 +94,8 @@ h1 {
   align-items: center;
 }
 .gebeurtenis__tabel h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
 }
 .gebeurtenis__tabel textarea {
   border: none;
@@ -109,12 +109,12 @@ h1 {
 
 .gebeurtenisnaam__tabel {
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 2%;
-  border: 5px solid #29a6b0;
-  margin-bottom: 20px;
+  border: 0.313rem solid #29a6b0;
+  margin-bottom: 1.25rem;
   width: 75%;
   margin-left: 10.5%;
   margin-right: 10.5%;
@@ -123,8 +123,8 @@ h1 {
   align-items: center;
 }
 .gebeurtenisnaam__tabel h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
 }
 .gebeurtenisnaam__tabel textarea {
   border: none;
@@ -145,28 +145,28 @@ h1 {
 }
 
 .gebeurtenis__typevak {
-  height: 80px;
+  height: 5rem;
   resize: none;
 }
 
 .gebeurtenisnaam__typevak {
-  height: 80px;
+  height: 5rem;
   resize: none;
 }
 
 .gedrag_vak {
   display: inline-block;
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
   margin: 0;
-  padding: 20px;
+  padding: 1.25rem;
   width: 25rem;
-  border: 5px solid #29a6b0;
+  border: 0.313rem solid #29a6b0;
 }
 .gedrag_vak h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
 }
 .gedrag_vak textarea {
   border: none;
@@ -179,24 +179,24 @@ h1 {
 
 .gedrag_links_typevak,
 .gedrag_rechts_typevak {
-  height: 100px;
+  height: 6.25rem;
   resize: none;
 }
 
 .gevoel_vak {
   display: inline-block;
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
   margin: 0;
-  padding: 20px;
+  padding: 1.25rem;
   width: 25rem;
-  border: 5px solid #29a6b0;
-  margin-bottom: 20px;
+  border: 0.313rem solid #29a6b0;
+  margin-bottom: 1.25rem;
 }
 .gevoel_vak h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
 }
 .gevoel_vak textarea {
   border: none;
@@ -208,20 +208,20 @@ h1 {
 }
 
 .gevoel_links_typevak {
-  height: 100px;
+  height: 6.25rem;
   resize: none;
 }
 
 .gevoel_rechts_typevak {
-  height: 100px;
+  height: 6.25rem;
   resize: none;
 }
 
 .wolkjes-container {
   display: flex;
   width: 100%;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .wolk_links {
@@ -242,14 +242,14 @@ h1 {
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
 }
 
 .wolk_links_typevak {
   border: none;
   background-color: transparent;
-  height: 100px;
+  height: 6.25rem;
   position: absolute;
   top: 46%;
   width: 17rem;
@@ -263,8 +263,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
 }
 
 .wolk_rechts > img {
@@ -275,7 +275,7 @@ h1 {
 .wolk_rechts_typevak {
   border: none;
   background-color: transparent;
-  height: 50px;
+  height: 3.125rem;
   position: absolute;
   top: 46%;
   width: 17rem;
@@ -287,9 +287,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
-  margin-bottom: 135px;
-  height: 150px;
+  padding: 1.25rem;
+  margin-bottom: 8.438rem;
+  height: 9.375rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -301,12 +301,12 @@ header::after {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 4px;
+  height: 0.25rem;
   background-color: #29a6b0;
 }
 header img {
   max-width: 100%;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 header h1 {
   text-align: center;

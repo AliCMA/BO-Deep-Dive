@@ -140,12 +140,6 @@ function OpschonenClicked() {
   window.location.reload(true);
 }
 
-function OpschonenClicked() {
-  confirm("Weet je zeker dat je je dagboek wilt Opschonen? Zodra je op OK drukt zullen je gegevens verwijderd worden en niet meer terug te vinden zijn op de site.");
-  localStorage.clear();
-  window.location.reload(true); 
-}
-
 // Opslaan Naam invulveld
 
 const nameInput = document.querySelector('.nameField');
@@ -160,7 +154,6 @@ nameInput.addEventListener('change', () => {
 
 // opslaan Succes Datums
 
-<<<<<<< HEAD
 const datumInput1 = document.querySelector('.table__date1');
 const datumInput2 = document.querySelector('.table__date2');
 const datumInput3 = document.querySelector('.table__date3');
@@ -379,60 +372,4 @@ if (localStorage.getItem('succes18')) {
 
 inputsucces18.addEventListener('change', () => {
   localStorage.setItem('succes18', inputsucces18.value);
-=======
-const successDateInputs = [
-  document.querySelector('#succesdatum'),
-  document.querySelector('#succesdatum2'),
-  document.querySelector('#succesdatum3'),
-  document.querySelector('#succesdatum4'),
-  document.querySelector('#succesdatum5'),
-  document.querySelector('#succesdatum6'),
-  document.querySelector('#succesdatum7')
-];
-
-successDateInputs.forEach((input, index) => {
-  const localStorageKey = `successDate${index + 1}`;
-  if (localStorage.getItem(localStorageKey)) {
-    input.value = localStorage.getItem(localStorageKey);
-  }
-  
-  input.addEventListener('change', () => {
-    localStorage.setItem(localStorageKey, input.value);
-  });
-});
-
-const freeformInputs = [
-  document.querySelector('#freeform'),
-  document.querySelector('#freeform2'),
-  document.querySelector('#freeform3'),
-  document.querySelector('#freeform4'),
-  document.querySelector('#freeform5'),
-  document.querySelector('#freeform6'),
-  document.querySelector('#freeform7'),
-  document.querySelector('#freeform8'),
-  document.querySelector('#freeform9'),
-  document.querySelector('#freeform10'),
-  document.querySelector('#freeform11'),
-  document.querySelector('#freeform12'),
-  document.querySelector('#freeform13'),
-  document.querySelector('#freeform14'),
-  document.querySelector('#freeform15'),
-  document.querySelector('#freeform16'),
-  document.querySelector('#freeform17'),
-  document.querySelector('#freeform18'),
-  document.querySelector('#freeform19'),
-  document.querySelector('#freeform20'),
-  document.querySelector('#freeform21')
-];
-
-freeformInputs.forEach((input, index) => {
-  const localStorageKey = `freeform${index + 1}`;
-  if (localStorage.getItem(localStorageKey)) {
-    input.value = localStorage.getItem(localStorageKey);
-  }
-  
-  input.addEventListener('change', () => {
-    localStorage.setItem(localStorageKey, input.value);
-  });
->>>>>>> 57e74cda2583cf3956c6c8e85cc32ed1c6a22806
 });

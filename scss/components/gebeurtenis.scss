@@ -1,0 +1,100 @@
+@use "../abstracts/colors";
+@use "../abstracts/mixins";
+
+// Code van de tabel die hoort bij de gebeurtenis gedeelte \\
+
+
+
+// Mixin code\\
+@mixin gebeurtenis-tabel() {
+    background-color: colors.$wit;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 2%;
+    border: 5px solid colors.$aqua;
+    margin-bottom: 20px;
+    width: 75%;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        border: none;
+        width: 100%;
+    }
+}
+
+@mixin gebeurtenisnaam-tabel() {
+    background-color: colors.$wit;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 2%;
+    border: 5px solid colors.$aqua;
+    margin-bottom: 20px;
+    width: 75%;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        border: none;
+        width: 100%;
+    }
+}
+
+// Mixin code \\
+
+
+
+
+.gebeurtenis__tabel {
+    @include gebeurtenis-tabel();
+}
+
+.gebeurtenis__tabel h2,
+.gebeurtenis__tabel textarea {
+    margin: 0;
+}
+
+.gebeurtenisnaam__tabel {
+    @include gebeurtenisnaam-tabel();
+}
+
+.gebeurtenisnaam__tabel h2,
+.gebeurtenisnaam__tabel textarea {
+    margin: 0;
+}
+
+.h2_gebeurtenis {
+    color: colors.$aqua;
+}
+
+.h2_gebeurtenisnaam{
+    color: colors.$aqua;
+}
+
+.gebeurtenis__typevak {
+    height: 80px;
+    resize: none;
+}
+
+.gebeurtenisnaam__typevak {
+    height: 80px;
+    resize: none;
+}

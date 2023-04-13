@@ -1,8 +1,6 @@
 @use "../abstracts/colors";
-@use "../abstracts/mixins";
+@import "../abstracts/mixins";
 
-
-// De code die hoort bij de twéé wolken \\
 
 .wolkjes-container {
     display: flex;
@@ -11,66 +9,10 @@
     margin-right: 2.5rem;
 }
 
-// Links wolk
-
 .wolk_links {
-    width: 30rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include wolken(30rem, 6.25rem, 6rem);
 }
-
-.wolk_links>img {
-    align-items: center;
-    width: 25rem;
-}
-
-.wolk_links {
-    width: 30rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin-top: 3.125rem;
-    margin-bottom: 3.125rem;
-}
-
-.wolk_links_typevak {
-    border: none;
-    background-color: transparent;
-    height: 6.25rem;
-    position: absolute;
-    top: 42%;
-    width: 17rem;
-    height: 6rem;
-    resize: none;
-
-}
-
-// Rechts wolk
 
 .wolk_rechts {
-    width: 30rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin-top: 3.125rem;
-    margin-bottom:3.125rem;
-}
-
-.wolk_rechts>img {
-    align-items: center;
-    width: 25rem;
-}
-
-.wolk_rechts_typevak {
-    border: none;
-    background-color: transparent;
-    height: 3.125rem;
-    position: absolute;
-    top: 42%;
-    width: 17rem;
-    height: 6rem;
-    resize: none;
+    @include wolken(30rem, 3.125rem, 6rem);
 }

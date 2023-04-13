@@ -62,7 +62,8 @@
     box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
     margin: 0;
     padding: 1.25rem;
-    width: 35%;
+    width: 25rem;
+    margin-bottom: 1.25rem;
     border: 0.313rem solid colors.$aqua;
 
     h2 {
@@ -76,15 +77,14 @@
     }
 }
 
-
-@mixin table-styles {
+@mixin table-tabel {
     display: inline-block;
     background-color: colors.$wit;
     border-radius: 0.625rem;
-    box-shadow: 0.625rem 0.625rem0.313rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
     margin: 0;
     padding: 1.25rem;
-    width: 35%;
+    width: 25rem;
     border: 0.313rem solid colors.$aqua;
 
     h2 {

@@ -47,6 +47,10 @@
     max-width: 20.313rem;
   }
 }
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
 *, *::before, *::after {
   padding: 0;
   margin: 0;
@@ -54,7 +58,6 @@
 }
 
 body {
-  font-family: "Ubuntu", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,12 +89,12 @@ h1 {
 
 .gebeurtenis__tabel {
   background-color: #fff;
-  border-radius: 0.625rem;
-  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 2%;
-  border: 0.313rem solid #29a6b0;
-  margin-bottom: 1.25rem;
+  border: 5px solid #29a6b0;
+  margin-bottom: 20px;
   width: 75%;
   margin-left: 10.5%;
   margin-right: 10.5%;
@@ -100,8 +103,8 @@ h1 {
   align-items: center;
 }
 .gebeurtenis__tabel h2 {
-  font-size: 1.25rem;
-  margin-bottom: 0.625rem;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 .gebeurtenis__tabel textarea {
   border: none;
@@ -115,12 +118,12 @@ h1 {
 
 .gebeurtenisnaam__tabel {
   background-color: #fff;
-  border-radius: 0.625rem;
-  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 2%;
-  border: 0.313rem solid #29a6b0;
-  margin-bottom: 1.25rem;
+  border: 5px solid #29a6b0;
+  margin-bottom: 20px;
   width: 75%;
   margin-left: 10.5%;
   margin-right: 10.5%;
@@ -129,8 +132,8 @@ h1 {
   align-items: center;
 }
 .gebeurtenisnaam__tabel h2 {
-  font-size: 1.25rem;
-  margin-bottom: 0.625rem;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 .gebeurtenisnaam__tabel textarea {
   border: none;

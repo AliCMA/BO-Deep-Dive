@@ -218,6 +218,7 @@ class Main {
 const header = new Header("G-Schema", "img/Logo.webp").render();
 const main = new Main().render();
 
+
 document.body.appendChild(header);
 document.body.appendChild(main);
 //Her bruikbare gedeelte 

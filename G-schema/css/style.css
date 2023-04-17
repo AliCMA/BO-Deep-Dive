@@ -1,4 +1,4 @@
-@media only screen and (min-width: 399px) and (max-width: 1000px) {
+@media only screen and (min-width: 24.938rem) and (max-width: 67.5rem) {
   header {
     display: flex;
     flex-direction: column;
@@ -89,12 +89,12 @@ h1 {
 
 .gebeurtenis__tabel {
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 2%;
-  border: 5px solid #29a6b0;
-  margin-bottom: 20px;
+  border: 0.313rem solid #29a6b0;
+  margin-bottom: 1.25rem;
   width: 75%;
   margin-left: 10.5%;
   margin-right: 10.5%;
@@ -103,8 +103,8 @@ h1 {
   align-items: center;
 }
 .gebeurtenis__tabel h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
 }
 .gebeurtenis__tabel textarea {
   border: none;
@@ -118,12 +118,12 @@ h1 {
 
 .gebeurtenisnaam__tabel {
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 2%;
-  border: 5px solid #29a6b0;
-  margin-bottom: 20px;
+  border: 0.313rem solid #29a6b0;
+  margin-bottom: 1.25rem;
   width: 75%;
   margin-left: 10.5%;
   margin-right: 10.5%;
@@ -132,8 +132,8 @@ h1 {
   align-items: center;
 }
 .gebeurtenisnaam__tabel h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
 }
 .gebeurtenisnaam__tabel textarea {
   border: none;

@@ -4,7 +4,7 @@ class SuccessTable {
 
     // create logo image
     const logoImg = document.createElement('img');
-    logoImg.setAttribute('src', 'img/site-logo.png');
+    logoImg.setAttribute('src', 'img/site-logo.webp');
     logoImg.setAttribute('alt', 'Logo Website ');
     body.appendChild(logoImg);
 
@@ -135,7 +135,7 @@ function PrintClicked() {
 }
 
 function OpschonenClicked() {
-  confirm("Weet je zeker dat je je dagboek wilt Opschonen? Zodra je op OK drukt zullen je gegevens verwijderd worden en niet meer terug te vinden zijn op de site.");
+  confirm("Dagboek word opgeschoond je gegevens zullen verwijderd worden en niet meer terug te vinden zijn op de site.");
   localStorage.clear();
   window.location.reload(true);
 }

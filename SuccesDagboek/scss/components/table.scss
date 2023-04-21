@@ -1,5 +1,7 @@
+@use "../abstracts/colors";
+
 table, th, td {
-    border: 0.2rem solid rgb(25,174,170);
+    border: 0.2rem solid map-get(colors.$baseColors, "tablecolor");
     border-collapse: collapse;
   }
 
@@ -13,7 +15,7 @@ textarea, input {
         height: 5rem;
         width: 30rem;
         font-weight: 500;
-        color: rgb(25,174,170)
+        color: map-get(colors.$baseColors, "tablecolor");
     }
 
     &__date{
@@ -22,7 +24,7 @@ textarea, input {
         border: none;
         padding: 0.7rem;
         font-family: 'Ubuntu', sans-serif;
-        color: rgb(25,174,170);
+        color: map-get(colors.$baseColors, "tablecolor");
     }
 
     &__th--date{
@@ -30,7 +32,7 @@ textarea, input {
         background: none;
         padding: 0.5rem;
         font-weight: 500;
-        color: rgb(25,174,170);
+        color: map-get(colors.$baseColors, "tablecolor");
     }
     
     &__td--text{

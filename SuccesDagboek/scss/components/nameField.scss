@@ -1,3 +1,5 @@
+@use "../abstracts/colors";
+
 .nameField__wrapper {
     display: flex;
     width: 104rem;
@@ -5,8 +7,8 @@
   }
  
 .nameField{
-  background-color: rgba(25, 174, 170, 0.65);
-  border: solid 0.1rem rgb(19, 133, 129);
+  background-color: map-get(colors.$baseColors, "background");
+  border: solid 0.1rem map-get(colors.$baseColors, "border");
   height: 2.7rem;
   width: 15rem;
   padding: 0.4rem;

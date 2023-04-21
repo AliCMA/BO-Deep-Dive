@@ -13,5 +13,5 @@ body{
 
 .h3__dagboek{
     font-weight: 500;
-    color: rgb(25,174,170)
+    color: map-get(colors.$baseColors, "tablecolor");
 }

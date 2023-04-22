@@ -196,9 +196,19 @@ class Main {
   }
 }
 
+class App {
+  constructor() {
+    new Header();
+    new Main();
+  }
+}
+
 //Hergebruikbare code
-const header = new Header();
-const main = new Main();
+new App();
+
+
+
+
 
 
 //Opslaan van data code 

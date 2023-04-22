@@ -2,18 +2,15 @@
 
 // Code voor de header \\
 
-
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 1.25rem;
   margin-bottom: 8.438rem;
-  height:9.375rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 9.375rem;
   position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
 
   &::after {
     content: "";
@@ -29,10 +26,9 @@ header {
     max-width: 50%;
     margin-right: 1.25rem;
   }
+}
 
-  h1 {
-    text-align: center;
-    flex-grow: 1;
-
-  }
+h1 {
+  text-align: center;
+  flex-grow: 1;
 }

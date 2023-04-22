@@ -207,10 +207,6 @@ class App {
 new App();
 
 
-
-
-
-
 //Opslaan van data code 
 const gevoel_links_typevak = document.getElementById("gevoel_links_typevak");
 const gevoel_rechts_typevak = document.getElementById("gevoel_rechts_typevak");

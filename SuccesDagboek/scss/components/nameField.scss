@@ -1,3 +1,6 @@
+@use "../abstracts/colors";
+@use "../abstracts/mixins";
+
 .nameField__wrapper {
     display: flex;
     width: 104rem;
@@ -5,18 +8,15 @@
   }
  
 .nameField{
-  background-color: rgba(25, 174, 170, 0.65);
+  background-color: map-get(colors.$baseColors, "primary-color");
   border: solid 0.1rem rgb(19, 133, 129);
-  height: 2.7rem;
-  width: 15rem;
+  @include mixins.namesize;
   padding: 0.4rem;
   outline: none;
 }
 
 .title__wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include mixins.center;
   width: 71.5%;
 }
   

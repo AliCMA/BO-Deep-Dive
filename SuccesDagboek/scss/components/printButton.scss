@@ -1,11 +1,13 @@
+@use "../abstracts/colors";
+@use "../abstracts/mixins";
+
 .printButton{
-    width: 11rem;
-    height: 4rem;
+    @include mixins.buttonwidth;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background: rgba(25, 174, 170, 0.65);
+    background: map-get(colors.$baseColors, "primary-color");
     border: none;
     font-family: 'Ubuntu', sans-serif; 
-    color: rgb(54, 54, 54);
+    color: map-get(colors.$baseColors, "text-color");
 
     &:hover{
         cursor: pointer;
@@ -15,8 +17,6 @@
 }
 
 .buttonWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include mixins.center;
     gap: 4rem;
 }

@@ -1,5 +1,8 @@
+@use "../abstracts/colors";
+@use "../abstracts/mixins";
+
 table, th, td {
-    border: 0.2rem solid rgb(25,174,170);
+    border: 0.2rem solid map-get(colors.$baseColors, "primary-color");
     border-collapse: collapse;
   }
 
@@ -10,27 +13,26 @@ textarea, input {
 .table{
 
     &__th{  
-        height: 5rem;
-        width: 30rem;
+        @include mixins.tableupperrowsize;
         font-weight: 500;
-        color: rgb(25,174,170)
+        color: map-get(colors.$baseColors, "primary-color");
     }
 
     &__date{
-        width: 10rem;
+        @include mixins.textfieldwidth;
         background: none;
-        border: none;
         padding: 0.7rem;
+        border: none;
         font-family: 'Ubuntu', sans-serif;
-        color: rgb(25,174,170);
+        color: map-get(colors.$baseColors, "primary-color");
     }
 
     &__th--date{
-        width: 2rem;
+        @include mixins.datefieldwidth;
         background: none;
         padding: 0.5rem;
         font-weight: 500;
-        color: rgb(25,174,170);
+        color: map-get(colors.$baseColors, "primary-color");
     }
     
     &__td--text{

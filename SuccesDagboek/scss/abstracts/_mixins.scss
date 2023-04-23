@@ -1,0 +1,28 @@
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+@mixin tableupperrowsize {
+    height: 5rem;
+    width: 30rem;
+}
+
+@mixin textfieldwidth{
+    width: 10rem;
+}
+
+@mixin datefieldwidth{
+    width: 2rem;
+}
+
+@mixin buttonwidth{
+    width: 11rem;
+    height: 4rem;
+}
+
+@mixin namesize{
+    height: 2.7rem;
+    width: 15rem;
+}

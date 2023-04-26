@@ -1,65 +1,5 @@
 @use "../abstracts/colors";
-@use "../abstracts/mixins";
-// Code van de tabel die hoort bij de gebeurtenis gedeelte \\
-
-
-
-// Mixin code\\
-@mixin gebeurtenis-tabel() {
-    background-color: colors.$wit;
-    border-radius: 0.625rem;
-    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
-    margin: 0;
-    padding: 2%;
-    border: 0.313rem solid colors.$aqua;
-    margin-bottom: 1.25rem;
-    width: 75%;
-    margin-left: 10.5%;
-    margin-right: 10.5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    h2 {
-        font-size: 1.25rem;
-        margin-bottom: 0.625rem;
-    }
-
-    textarea {
-        border: none;
-        width: 100%;
-    }
-}
-
-@mixin gebeurtenisnaam-tabel() {
-    background-color: colors.$wit;
-    border-radius: 0.625rem;
-    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
-    margin: 0;
-    padding: 2%;
-    border: 0.313rem solid colors.$aqua;
-    margin-bottom: 1.25rem;
-    width: 75%;
-    margin-left: 10.5%;
-    margin-right: 10.5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    h2 {
-        font-size: 1.25rem;
-        margin-bottom: 0.625rem;
-    }
-
-    textarea {
-        border: none;
-        width: 100%;
-    }
-}
-
-// Mixin code \\
-
-
+@import "../abstracts/mixins";
 
 
 .gebeurtenis__tabel {
@@ -84,16 +24,16 @@
     color: colors.$aqua;
 }
 
-.h2_gebeurtenisnaam{
+.h2_gebeurtenisnaam {
     color: colors.$aqua;
 }
 
 .gebeurtenis__typevak {
-    height: 5rem ;
+    height: 5rem;
     resize: none;
 }
 
 .gebeurtenisnaam__typevak {
-    height: 5rem ;
+    height: 5rem;
     resize: none;
 }

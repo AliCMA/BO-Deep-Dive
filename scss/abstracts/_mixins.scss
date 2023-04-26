@@ -4,13 +4,13 @@
 
 // Mixin code\\
 @mixin gebeurtenis-tabel() {
-    background-color: colors.$wit;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 0.625rem;
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
     margin: 0;
     padding: 2%;
-    border: 5px solid colors.$aqua;
-    margin-bottom: 20px;
+    border: 0.313rem solid #29a6b0;
+    margin-bottom: 1.25rem;
     width: 75%;
     margin-left: 10.5%;
     margin-right: 10.5%;
@@ -19,24 +19,26 @@
     align-items: center;
 
     h2 {
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
+        margin: 0;
     }
 
     textarea {
         border: none;
         width: 100%;
+        margin: 0;
     }
 }
 
 @mixin gebeurtenisnaam-tabel() {
     background-color: colors.$wit;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.625rem;
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
     margin: 0;
     padding: 2%;
-    border: 5px solid colors.$aqua;
-    margin-bottom: 20px;
+    border: 0.313rem solid colors.$aqua;
+    margin-bottom: 1.25rem;
     width: 75%;
     margin-left: 10.5%;
     margin-right: 10.5%;
@@ -45,13 +47,15 @@
     align-items: center;
 
     h2 {
-        font-size: 20px;
-        margin-bottom: 10px;
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
+        margin: 0;
     }
 
     textarea {
         border: none;
         width: 100%;
+        margin: 0;
     }
 }
 
@@ -62,7 +66,8 @@
     box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
     margin: 0;
     padding: 1.25rem;
-    width: 35%;
+    width: 25rem;
+    margin-bottom: 1.25rem;
     border: 0.313rem solid colors.$aqua;
 
     h2 {
@@ -76,16 +81,16 @@
     }
 }
 
-
-@mixin table-styles {
+@mixin gevoel_vakG {
     display: inline-block;
-    background-color: colors.$wit;
+    background-color: #fff;
     border-radius: 0.625rem;
-    box-shadow: 0.625rem 0.625rem0.313rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
     margin: 0;
     padding: 1.25rem;
-    width: 35%;
-    border: 0.313rem solid colors.$aqua;
+    width: 25rem;
+    border: 0.313rem solid #29a6b0;
+    margin-bottom: 1.25rem;
 
     h2 {
         font-size: 1.25rem;
@@ -95,5 +100,31 @@
     textarea {
         border: none;
         width: 100%;
+    }
+}
+
+@mixin wolken($breedte, $hoogte, $typevak-hoogte) {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+
+    >img {
+        align-items: center;
+        width: 25rem;
+    }
+
+    &_typevak {
+        border: none;
+        background-color: transparent;
+        height: 6rem;
+        position: absolute;
+        top: 42%;
+        width: 17rem;
+        height: 6rem;
+        resize: none;
     }
 }

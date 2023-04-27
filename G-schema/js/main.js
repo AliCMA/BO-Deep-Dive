@@ -1,4 +1,8 @@
 //OOP
+
+
+
+
 class Header {
   constructor() {
     const header = document.createElement('header');
@@ -40,7 +44,7 @@ class Main {
 
     const h2Gebeurtenis = document.createElement('h2');
     h2Gebeurtenis.classList.add('h2_gebeurtenis');
-    h2Gebeurtenis.innerHTML = '(A) Gebeurtenis: wie?, Met wie?, Wat?, Waar?, Wanneer?, Hoe?';
+    h2Gebeurtenis.innerHTML = '(A) Gebeurtenis: wie?, met wie?, wat?, waar?, wanneer?, hoe?';
     gebeurtenisTabel.appendChild(h2Gebeurtenis);
 
     const gebeurtenisTypevak = document.createElement('textarea');
@@ -151,7 +155,7 @@ class Main {
 
     const pClassPE = document.createElement('p');
     pClassPE.classList.add('class_p');
-    pClassPE.textContent = 'Klaar!';
+    pClassPE.textContent = 'Klaar!, printen?, klik op de knop Downloaden boven!';
     wolkRechts.appendChild(pClassPE);
 
     const gevoelVakRechts = document.createElement('div');
@@ -196,6 +200,50 @@ class Main {
   }
 }
 
+
+function PrintClicked() {
+
+  window.jsPDF = window.jspdf.jsPDF;
+
+  var docPDF = new jsPDF();
+
+  function print() {
+
+    var elementHTML = document.querySelector("#printTable");
+
+    docPDF.html(elementHTML, {
+
+      callback: function (docPDF) {
+
+        docPDF.save('G-schema.pdf');
+
+      },
+
+      x: 15,
+      y: 100,
+      width: 1500,
+      windowWidth: 1300
+    });
+
+  }
+}
+
+class PrintButton {
+  constructor() {
+    this.button = document.createElement("button");
+    this.button.className = "printButton";
+    this.button.id = "printButton";
+    this.button.textContent = "Downloaden";
+    this.button.onclick = () => {
+      window.print();
+    };
+    document.getElementById("printTable").appendChild(this.button);
+  }
+}
+
+const downloadButton = new PrintButton();
+
+
 class App {
   constructor() {
     new Header();
@@ -205,7 +253,6 @@ class App {
 
 //Hergebruikbare code
 new App();
-
 
 //Opslaan van data code 
 const gevoel_links_typevak = document.getElementById("gevoel_links_typevak");
@@ -269,4 +316,5 @@ window.onload = function () {
   }
 
 };
+
 

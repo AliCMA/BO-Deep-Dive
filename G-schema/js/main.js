@@ -255,6 +255,7 @@ class App {
 new App();
 
 //Opslaan van data code 
+const gebeurtenisnaam__typevak = document.getElementById("gebeurtenisnaam__typevak");
 const gevoel_links_typevak = document.getElementById("gevoel_links_typevak");
 const gevoel_rechts_typevak = document.getElementById("gevoel_rechts_typevak");
 const gedrag_links_typevak = document.getElementById("gedrag_links_typevak");
@@ -262,6 +263,11 @@ const gedrag_rechts_typevak = document.getElementById("gedrag_rechts_typevak");
 const wolk_links_typevak = document.getElementById("wolk_links_typevak");
 const wolk_rechts_typevak = document.getElementById("wolk_rechts_typevak");
 const gebeurtenis__typevak = document.getElementById("gebeurtenis__typevak");
+
+
+gebeurtenisnaam__typevak.addEventListener("input", function () {
+  localStorage.setItem("gebeurtenisnaam__typevak", gebeurtenisnaam__typevak.value);
+});
 
 gevoel_links_typevak.addEventListener("input", function () {
   localStorage.setItem("gevoel_links_typevak", gevoel_links_typevak.value);
@@ -293,6 +299,9 @@ gebeurtenis__typevak.addEventListener("input", function () {
 
 
 window.onload = function () {
+  if (localStorage.getItem("gebeurtenisnaam__typevak")) {
+    gebeurtenisnaam__typevak.value = localStorage.getItem("gebeurtenisnaam__typevak");
+  }
   if (localStorage.getItem("gevoel_links_typevak")) {
     gevoel_links_typevak.value = localStorage.getItem("gevoel_links_typevak");
   }

@@ -48,7 +48,7 @@ class SuccessTable {
 
     table.appendChild(tableHeaderRow);
 
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= 7; i++) {
       const tableRow = document.createElement('tr');
 
       const dateInput = document.createElement('td');

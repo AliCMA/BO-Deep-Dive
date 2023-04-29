@@ -1,4 +1,4 @@
-@use "../abstracts/colors";
+@use "./abstracts/colors";
 
 // Code voor de hele site (body) \\
 
@@ -37,3 +37,19 @@ h1 {
     color: colors.$aqua;
 }
 
+.printButton {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    background-color: colors.$aqua;
+    color: #19e5e6;
+    font-size: 1.125rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.125rem 0.125rem 0.25 rgba(0, 0, 0, 0.4);
+    text-shadow: 0.063rem 0.063rem 0.125rem rgba(0, 0, 0, 0.4);
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.printButton:hover {
+    background-color: #19e5e6;
+}

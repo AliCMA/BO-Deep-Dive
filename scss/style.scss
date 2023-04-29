@@ -1,4 +1,4 @@
-// Scss styles links \\
+// Scss styles links 
 
 
 
@@ -11,9 +11,10 @@
 
 
 //Components
-@use "./components/base.scss";
+@use "./base.scss";
 @use "./components/gebeurtenis.scss";
 @use "./components/gedrag.scss";
 @use "./components/gevoel.scss";
 @use "./components/wolken.scss";
-@use "./components/header.scss";
+
+@use "./components/header/header.scss";

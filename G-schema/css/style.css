@@ -107,10 +107,9 @@ h1 {
   color: #19e5e6;
   font-size: 1.125rem;
   border-radius: 0.5rem;
-  box-shadow: 0.125rem 0.125rem 0.25 rgba(0, 0, 0, 0.4);
-  text-shadow: 0.063rem 0.063rem 0.125rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0.125rem 0.125rem 0.25 #29a6b0 0, 0, 0, 0.4;
+  text-shadow: 0.063rem 0.063rem 0.125rem #29a6b0 0, 0, 0, 0.4;
   transition: background-color 0.2s ease-in-out;
-  cursor: pointer;
 }
 
 .printButton:hover {

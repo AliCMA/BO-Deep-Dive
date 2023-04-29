@@ -141,7 +141,7 @@ class Main {
     mainContainerRight.appendChild(wolkRechts);
 
     const h1Handige = document.createElement('h1');
-    h1Handige.textContent = '(D) Handige';
+    h1Handige.textContent = '(D) Helpende';
     wolkRechts.appendChild(h1Handige);
 
     const imgWolkRechts = document.createElement('img');

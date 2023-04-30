@@ -1,0 +1,51 @@
+table, th, td {
+    border: 0.2rem solid rgb(25,174,170);
+    border-collapse: collapse;
+  }
+
+textarea, input {
+    outline: none;
+}
+
+.table{
+
+    &__th{  
+        height: 5rem;
+        width: 30rem;
+        font-weight: 500;
+        color: rgb(25,174,170)
+    }
+
+    &__date{
+        width: 11rem;
+        background: none;
+        border: none;
+        padding: 0.7rem;
+        font-family: 'Ubuntu', sans-serif;
+        color: rgb(25,174,170);
+    }
+
+    &__th--date{
+        width: 2rem;
+        background: none;
+        padding: 0.5rem;
+        font-weight: 500;
+        color: rgb(25,174,170);
+    }
+    
+    &__td--text{
+        height: 7.5rem;
+        background: none;
+    }
+
+    &__textField{
+        background: none;
+        padding: 0.6rem;
+        border: none;
+        resize: vertical;
+        width: 100%;
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+}

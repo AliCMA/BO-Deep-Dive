@@ -1,0 +1,23 @@
+@use "../abstracts/colors";
+@import "../abstracts/mixins";
+
+
+// Code van de tabellen die horen bij de gevoel gedeelte \\
+
+.gevoel_vak {
+    @include gevoel_vakG;
+}
+
+.h2_gevoel {
+    color: colors.$aqua;
+}
+
+.gevoel_links_typevak {
+    height: 6.25rem;
+    resize: none;
+}
+
+.gevoel_rechts_typevak {
+    height: 6.25rem;
+    resize: none;
+}

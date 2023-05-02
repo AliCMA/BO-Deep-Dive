@@ -1,0 +1,21 @@
+// Scss styles links 
+
+
+
+//Abstracts
+@use "./abstracts/colors";
+@use "./abstracts/mixins";
+@use "./abstracts/mediaquerys";
+@use "./abstracts/font";
+@use "./abstracts/reset";
+
+
+//Components
+@use "./base.scss";
+@use "./components/gebeurtenis.scss";
+@use "./components/gedrag.scss";
+@use "./components/gevoel.scss";
+@use "./components/wolken.scss";
+@use "./components/downloadbtn.scss";
+
+@use "./components/header/header.scss";

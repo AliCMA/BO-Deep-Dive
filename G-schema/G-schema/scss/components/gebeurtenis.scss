@@ -1,0 +1,39 @@
+@use "../abstracts/colors";
+@import "../abstracts/mixins";
+
+
+.gebeurtenis__tabel {
+    @include gebeurtenis-tabel();
+}
+
+.gebeurtenis__tabel h2,
+.gebeurtenis__tabel textarea {
+    margin: 0;
+}
+
+.gebeurtenisnaam__tabel {
+    @include gebeurtenisnaam-tabel();
+}
+
+.gebeurtenisnaam__tabel h2,
+.gebeurtenisnaam__tabel textarea {
+    margin: 0;
+}
+
+.h2_gebeurtenis {
+    color: colors.$aqua;
+}
+
+.h2_gebeurtenisnaam {
+    color: colors.$aqua;
+}
+
+.gebeurtenis__typevak {
+    height: 5rem;
+    resize: none;
+}
+
+.gebeurtenisnaam__typevak {
+    height: 5rem;
+    resize: none;
+}

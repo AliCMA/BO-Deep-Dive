@@ -1,0 +1,17 @@
+@use "../abstracts/colors";
+@import "../abstracts/mixins";
+
+.wolkjes-container {
+    display: flex;
+    width: 100%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.wolk_links {
+    @include wolken(30rem, 6.25rem, 6rem);
+}
+
+.wolk_rechts {
+    @include wolken(30rem, 3.125rem, 6rem);
+}

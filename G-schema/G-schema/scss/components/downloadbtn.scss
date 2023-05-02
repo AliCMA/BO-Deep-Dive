@@ -1,0 +1,22 @@
+@use "../abstracts/colors";
+
+.printButton {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    background-color: colors.$aqua;
+    color: #19e5e6;
+    font-size: 1.125rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.125rem 0.125rem 0.25 colors.$aqua(0, 0, 0, 0.4);
+    text-shadow: 0.063rem 0.063rem 0.125rem colors.$aqua(0, 0, 0, 0.4);
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+}
+
+.printButton:hover {
+    background-color: #19e5e6;
+}
+
+button{
+    margin-top: 1rem;
+}

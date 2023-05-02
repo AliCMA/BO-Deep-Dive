@@ -1,0 +1,41 @@
+@use "./abstracts/colors";
+
+// Code voor de hele site (body) \\
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabellen_wolken {
+    display: flex;
+    text-align: center;
+    flex-grow: 1;
+}
+
+h1 {
+    color: colors.$aqua;
+}
+
+.class_p {
+    color: colors.$aqua;
+}
+
+
+

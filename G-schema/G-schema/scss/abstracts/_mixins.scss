@@ -1,0 +1,130 @@
+@use "../abstracts/colors";
+
+// Mixin codes \\
+
+// Mixin code\\
+@mixin gebeurtenis-tabel() {
+    background-color: #fff;
+    border-radius: 0.625rem;
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 2%;
+    border: 0.313rem solid #29a6b0;
+    margin-bottom: 1.25rem;
+    width: 75%;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
+        margin: 0;
+    }
+
+    textarea {
+        border: none;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@mixin gebeurtenisnaam-tabel() {
+    background-color: colors.$wit;
+    border-radius: 0.625rem;
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 2%;
+    border: 0.313rem solid colors.$aqua;
+    margin-bottom: 1.25rem;
+    width: 75%;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
+        margin: 0;
+    }
+
+    textarea {
+        border: none;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@mixin gedrag-vak() {
+    display: inline-block;
+    background-color: colors.$wit;
+    border-radius: 0.625rem;
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 1.25rem;
+    width: 25rem;
+    margin-bottom: 1.25rem;
+    border: 0.313rem solid colors.$aqua;
+
+    h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
+    }
+
+    textarea {
+        border: none;
+        width: 100%;
+    }
+}
+
+@mixin gevoel_vakG {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 0.625rem;
+    box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 1.25rem;
+    width: 25rem;
+    border: 0.313rem solid #29a6b0;
+    margin-bottom: 1.25rem;
+
+    h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
+    }
+
+    textarea {
+        border: none;
+        width: 100%;
+    }
+}
+
+@mixin wolken($breedte, $hoogte, $typevak-hoogte) {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+
+    >img {
+        align-items: center;
+        width: 25rem;
+    }
+
+    &_typevak {
+        border: none;
+        background-color: transparent;
+        height: 6rem;
+        position: absolute;
+        top: 42%;
+        width: 17rem;
+        height: 6rem;
+        resize: none;
+    }
+}

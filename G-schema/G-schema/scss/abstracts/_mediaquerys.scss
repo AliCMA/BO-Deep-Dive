@@ -1,0 +1,72 @@
+@use "../abstracts/colors";
+@use "../abstracts/mixins";
+
+// Mediaquerys voor het responsive gedeelte van de website 
+
+@media only screen and (min-width: 24.938rem) and (max-width: 67.5rem) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header,
+  ::after {
+    display: none;
+  }
+
+  .main_titel {
+    font-size: 1.5rem;
+  }
+
+  .gebeurtenis__tabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h2_gebeurtenis {
+    font-size: 1.5rem;
+  }
+
+  .gebeurtenis__typevak {
+    width: 90%;
+    height: 10rem;
+  }
+
+  .tabellen_wolken {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wolk_links,
+  .wolk_rechts {
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  .h2_gevoel,
+  .h2_gedrag {
+    font-size: 1.5rem;
+  }
+
+  .gevoel_links_typevak,
+  .gevoel_rechts_typevak,
+  .gedrag_links_typevak,
+  .gedrag_rechts_typevak {
+    width: 90%;
+    height: 10rem;
+  }
+
+  .gevoel_vak,
+  .gedrag_vak {
+    max-width: 20.313rem;
+  }
+}

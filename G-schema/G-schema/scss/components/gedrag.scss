@@ -1,0 +1,18 @@
+@use "../abstracts/colors";
+@import "../abstracts/mixins";
+
+// Code van de tabellen die horen bij de gedrag gedeelte \\
+
+.gedrag_vak {
+    @include gedrag-vak();
+}
+
+.h2_gedrag {
+    color: colors.$aqua;
+}
+
+.gedrag_links_typevak,
+.gedrag_rechts_typevak {
+    height: 6.25rem;
+    resize: none;
+}

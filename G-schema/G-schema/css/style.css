@@ -1,0 +1,352 @@
+@media only screen and (min-width: 24.938rem) and (max-width: 67.5rem) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header,
+::after {
+    display: none;
+  }
+  .main_titel {
+    font-size: 1.5rem;
+  }
+  .gebeurtenis__tabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .h2_gebeurtenis {
+    font-size: 1.5rem;
+  }
+  .gebeurtenis__typevak {
+    width: 90%;
+    height: 10rem;
+  }
+  .tabellen_wolken {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wolk_links,
+.wolk_rechts {
+    width: 90%;
+    margin: 1rem 0;
+  }
+  .h2_gevoel,
+.h2_gedrag {
+    font-size: 1.5rem;
+  }
+  .gevoel_links_typevak,
+.gevoel_rechts_typevak,
+.gedrag_links_typevak,
+.gedrag_rechts_typevak {
+    width: 90%;
+    height: 10rem;
+  }
+  .gevoel_vak,
+.gedrag_vak {
+    max-width: 20.313rem;
+  }
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabellen_wolken {
+  display: flex;
+  text-align: center;
+  flex-grow: 1;
+}
+
+h1 {
+  color: #29a6b0;
+}
+
+.class_p {
+  color: #29a6b0;
+}
+
+.gebeurtenis__tabel {
+  background-color: #fff;
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 2%;
+  border: 0.313rem solid #29a6b0;
+  margin-bottom: 1.25rem;
+  width: 75%;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gebeurtenis__tabel h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  margin: 0;
+}
+.gebeurtenis__tabel textarea {
+  border: none;
+  width: 100%;
+  margin: 0;
+}
+
+.gebeurtenis__tabel h2,
+.gebeurtenis__tabel textarea {
+  margin: 0;
+}
+
+.gebeurtenisnaam__tabel {
+  background-color: #fff;
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 2%;
+  border: 0.313rem solid #29a6b0;
+  margin-bottom: 1.25rem;
+  width: 75%;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gebeurtenisnaam__tabel h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  margin: 0;
+}
+.gebeurtenisnaam__tabel textarea {
+  border: none;
+  width: 100%;
+  margin: 0;
+}
+
+.gebeurtenisnaam__tabel h2,
+.gebeurtenisnaam__tabel textarea {
+  margin: 0;
+}
+
+.h2_gebeurtenis {
+  color: #29a6b0;
+}
+
+.h2_gebeurtenisnaam {
+  color: #29a6b0;
+}
+
+.gebeurtenis__typevak {
+  height: 5rem;
+  resize: none;
+}
+
+.gebeurtenisnaam__typevak {
+  height: 5rem;
+  resize: none;
+}
+
+.gedrag_vak {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 1.25rem;
+  width: 25rem;
+  margin-bottom: 1.25rem;
+  border: 0.313rem solid #29a6b0;
+}
+.gedrag_vak h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+.gedrag_vak textarea {
+  border: none;
+  width: 100%;
+}
+
+.h2_gedrag {
+  color: #29a6b0;
+}
+
+.gedrag_links_typevak,
+.gedrag_rechts_typevak {
+  height: 6.25rem;
+  resize: none;
+}
+
+.gevoel_vak {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 0.625rem;
+  box-shadow: 0.625rem 0.625rem 0.313rem rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 1.25rem;
+  width: 25rem;
+  border: 0.313rem solid #29a6b0;
+  margin-bottom: 1.25rem;
+}
+.gevoel_vak h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+.gevoel_vak textarea {
+  border: none;
+  width: 100%;
+}
+
+.h2_gevoel {
+  color: #29a6b0;
+}
+
+.gevoel_links_typevak {
+  height: 6.25rem;
+  resize: none;
+}
+
+.gevoel_rechts_typevak {
+  height: 6.25rem;
+  resize: none;
+}
+
+.wolkjes-container {
+  display: flex;
+  width: 100%;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.wolk_links {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+.wolk_links > img {
+  align-items: center;
+  width: 25rem;
+}
+.wolk_links_typevak {
+  border: none;
+  background-color: transparent;
+  height: 6rem;
+  position: absolute;
+  top: 42%;
+  width: 17rem;
+  height: 6rem;
+  resize: none;
+}
+
+.wolk_rechts {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+.wolk_rechts > img {
+  align-items: center;
+  width: 25rem;
+}
+.wolk_rechts_typevak {
+  border: none;
+  background-color: transparent;
+  height: 6rem;
+  position: absolute;
+  top: 42%;
+  width: 17rem;
+  height: 6rem;
+  resize: none;
+}
+
+.printButton {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  background-color: #29a6b0;
+  color: #19e5e6;
+  font-size: 1.125rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.125rem 0.125rem 0.25 #29a6b0 0, 0, 0, 0.4;
+  text-shadow: 0.063rem 0.063rem 0.125rem #29a6b0 0, 0, 0, 0.4;
+  transition: background-color 0.2s ease-in-out;
+  border: none;
+}
+
+.printButton:hover {
+  background-color: #19e5e6;
+}
+
+button {
+  margin-top: 1rem;
+}
+
+header {
+  padding: 1.25rem;
+  margin-bottom: 8.438rem;
+  height: 9.375rem;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.25rem;
+  background-color: #29a6b0;
+}
+header img {
+  max-width: 50%;
+  margin-right: 1.25rem;
+}
+
+h1 {
+  text-align: center;
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
